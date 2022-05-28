@@ -47,7 +47,7 @@ const secondUserFavResto = [
 
 /* firstUser Data */
 const firstUser = {
-  nama: "Monica",
+  name: "Monica",
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
@@ -59,7 +59,7 @@ const firstUser = {
 
 /* secondUser Data */
 const secondUser = {
-  nama: "Wendy",
+  name: "Wendy",
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
