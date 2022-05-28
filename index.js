@@ -22,6 +22,9 @@ const firstUserFavResto = [
   "Sushi",
   "Sushi",
 ];
+
+let setFirstUserColor = new Set(firstUserColor);
+let setFirstUserFavResto = new Set(firstUserFavResto);
 /* End firstUser Property */
 
 /* secondUser Property */
@@ -43,6 +46,9 @@ const secondUserFavResto = [
   "Pancake",
   "Eggy",
 ];
+
+let setSecondUserColor = new Set(secondUserColor);
+let setSecondUserFavResto = new Set(secondUserFavResto);
 /* End secondUser Property */
 
 /* firstUser Data */
@@ -51,10 +57,10 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColor: firstUserColor,
+  favoriteColor: [...setFirstUserColor],
   isHavePet: "Yes",
   education: firstUserEducation,
-  favoriteRestaurant: firstUserFavResto,
+  favoriteRestaurant: [...setFirstUserFavResto],
 };
 
 /* secondUser Data */
@@ -63,10 +69,10 @@ const secondUser = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColor: secondUserColor,
+  favoriteColor: [...setSecondUserColor],
   isHavePet: "No",
   education: secondUserEducation,
-  favoriteRestaurant: secondUserFavResto,
+  favoriteRestaurant: [...setSecondUserFavResto],
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
